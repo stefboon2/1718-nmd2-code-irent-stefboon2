@@ -1,0 +1,29 @@
+# Site settings
+# -------------
+baseurl: /1718-nmd2-code-irent # the subpath of your site, e.g. /blog
+# host   : 127.0.0.1
+# port   : 4000
+
+# Site variables
+# ---------------
+title: iRent
+
+# Build settings
+# --------------
+plugins:
+# - jekyll-feed
+# - jekyll-gist
+# - jekyll-mentions
+# - jekyll-paginate
+# - jekyll-redirect-from
+# - jekyll-seo-tag
+# - jekyll-sitemap
+  - jemoji
+sass:
+#  style: nested
+#  style: expanded
+#  style: compact
+  style: compressed
+exclude:
+  - Gemfile
+  - README.md
